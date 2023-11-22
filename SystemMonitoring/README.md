@@ -1,0 +1,5 @@
+# System Monitoring Script
+
+A system monitoring script is a type of Python script that is used to monitor the performance and status of a computer or network. The script can be used to track various metrics, such as CPU usage, memory usage, disk space, network traffic, and system uptime. The script can also be used to monitor certain events or conditions, such as the occurrence of an error or the availability of a specific service.
+
+This script uses the cpu_percent, virtual_memory, and disk_usage functions from the psutil module to retrieve the current CPU usage, memory usage, and disk usage, respectively. The virtual_memory function returns an object with various properties, such as the total amount of memory and the amount of used and free memory. The disk_usage function takes a path as an argument and returns an object with properties such as the total amount of space on the disk and the amount of used and free space.
