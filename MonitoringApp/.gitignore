@@ -1,0 +1,20 @@
+# Terraform-specific files and directories
+*.tfstate
+*.tfstate.backup
+*.tfvars
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# Ignore older Terraform directories
+**/.terraform/*
+
+# Ignore keys
+*.pem
+
+# Ignore DS_STORE files
+.DS_STORE
+
+# Ignore
+planfile
