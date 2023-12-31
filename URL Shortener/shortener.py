@@ -9,7 +9,7 @@ def shorten_url_tinyurl(long_url):
         return None
 
 # Replace this with the actual long URL you want to shorten
-long_url = r"https://github.com/teodor1006/Bachelor-thesis"
+long_url = r"Paste your URL here"
 
 short_url = shorten_url_tinyurl(long_url)
 
