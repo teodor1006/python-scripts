@@ -15,3 +15,9 @@
 * Create a `.json` file with the info about the games
 * Compile all of the game code
 * Run all of the game code
+
+### Make sure that you have `Go` installed and run the programm like that:
+
+```sh
+python scripts.py data target
+```
